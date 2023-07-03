@@ -1,10 +1,15 @@
 #!/usr/bin/python3
 """
-a function that print the pascal triangle
+pascal triangle
 """
 
 
 def pascal_triangle(n):
+
+    """
+    a function that print the pascal triangle
+    """
+
     if n <= 0:
         return []
 
