@@ -1,4 +1,10 @@
 #!/usr/bin/python3
+
+"""
+minimum operation
+"""
+
+
 def minOperations(n):
     """
     minimum operation function
@@ -17,5 +23,3 @@ def minOperations(n):
             factor += 1
 
     return operations
-
-
