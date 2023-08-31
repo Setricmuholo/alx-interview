@@ -30,6 +30,7 @@ def island_perimeter(grid):
 
                     # If the adjacent cell is also land, subtract 1 from the perimeter
                     if 0 <= newRow < rows and 0 <= newCol < cols and grid[newRow][newCol] == 1:
+
                         perimeter -= 1
 
     return perimeter
